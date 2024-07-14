@@ -54,6 +54,7 @@ To run the Airport Management System locally:
 - Java
 - MySQL
 - JDBC (Java Database Connectivity)
+- FXML
 
 ## Contributing
 
