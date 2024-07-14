@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.Login">
+   <children>
+      <Text fill="#230a8a" layoutX="224.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#340abf" layoutX="190.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignIn">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#340c8a" layoutX="190.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="350.0" layoutY="103.0" mnemonicParsing="false" onAction="#SignIn" text="SignIn" />
+      <Button layoutX="350.0" layoutY="145.0" mnemonicParsing="false" onAction="#SignUp" text="SignUp" />
+   </children>
+</AnchorPane>

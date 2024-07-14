@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.Admin">
+   <children>
+      <Text fill="#180775" layoutX="149.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME ADMIN">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#120561" layoutX="95.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ScheduleLanding">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#1f0a94" layoutX="95.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ScheduleDeparture">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#1a068a" layoutX="95.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ModifyPilotDetails">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="ScheduleLanding" layoutX="384.0" layoutY="103.0" mnemonicParsing="false" onAction="#ScheduleLanding" text="ScheduleLanding" />
+      <Button fx:id="ScheduleDeparture" layoutX="386.0" layoutY="153.0" mnemonicParsing="false" onAction="#ScheduleDeparture" text="ScheduleDeparture" />
+      <Button fx:id="ModifyPilotDetails" layoutX="389.0" layoutY="204.0" mnemonicParsing="false" onAction="#ModifyPilotDetails" text="ModifyPilotDetails" />
+      <Text fill="#1a068a" layoutX="99.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ViewPilotDetails">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="ViewDetails" layoutX="389.0" layoutY="258.0" mnemonicParsing="false" onAction="#ViewDetails" text="ViewDetails" />
+   </children>
+</AnchorPane>

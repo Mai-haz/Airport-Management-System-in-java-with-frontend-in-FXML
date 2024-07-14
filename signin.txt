@@ -1,0 +1,31 @@
+package UserInterface;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+
+import java.io.IOException;
+
+public class Signin {
+}
+    /*@FXML
+    void SignIn(ActionEvent event) throws IOException {
+        /*String id = ID.getText();
+        String Pass = password.getText();
+        String role;
+        //check for this id what is the role
+        dbHandler db=new dbHandler();
+        String r=db.SigninClass(id,Pass);
+        if(r=="admin") {
+            Main m = new Main();
+            m.changeScene("admin.fxml");
+        }
+        if(r=="pilot") {
+            Main m = new Main();
+            m.changeScene("pilot.fxml");
+        }
+        if(r=="passenger") {
+            Main m = new Main();
+            m.changeScene("passenger.fxml");
+        }
+
+    }*/
